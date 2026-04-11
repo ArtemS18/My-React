@@ -1,0 +1,55 @@
+{
+  "name": "the-react",
+  "version": "1.0.1",
+  "description": "A React library for TheBugs Project",
+  "main": "./src/index.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.js"
+    },
+    "./jsx-runtime": {
+      "types": "./src/types/jsx.ts",
+      "import": "./src/jsx-runtime"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./src/types/jsx.ts",
+      "import": "./src/jsx-dev-runtime"
+    },
+    "./router-dom": {
+      "types": "./src/index.ts",
+      "import": "./src/router-dom/index.ts"
+    },
+    "./hooks": {
+      "types": "./src/index.ts",
+      "import": "./src/hooks/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemS18/My-React.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "library",
+    "js",
+    "ts"
+  ],
+  "author": "Artemii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemS18/My-React/issues"
+  },
+  "homepage": "https://github.com/ArtemS18/My-React#readme",
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-tsconfig-paths": "^6.1.1"
+  }
+}
