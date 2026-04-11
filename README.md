@@ -146,7 +146,3 @@ It is a learning and engineering project, not just a wrapper around React.
 ## License
 
 ISC
-
-***
-
-If you want, I can next turn this into a more polished README with badges, screenshots, API sections, and a nicer “Getting Started” flow.
