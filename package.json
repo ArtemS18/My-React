@@ -1,6 +1,6 @@
 {
   "name": "the-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React library for TheBugs Project",
   "main": "./src/index.js",
   "types": "./src/index.ts",
@@ -11,15 +11,10 @@
     },
     "./jsx-runtime": {
       "types": "./src/types/jsx.ts",
-      "import": "./src/jsx-runtime"
+      "import": "./src/jsx-runtime/index.ts"
     },
     "./jsx-dev-runtime": {
-      "types": "./src/types/jsx.ts",
-      "import": "./src/jsx-dev-runtime"
-    },
-    "./router-dom": {
-      "types": "./src/index.ts",
-      "import": "./src/router-dom/index.ts"
+      "import": "./src/jsx-dev-runtime/index.ts"
     },
     "./hooks": {
       "types": "./src/index.ts",
